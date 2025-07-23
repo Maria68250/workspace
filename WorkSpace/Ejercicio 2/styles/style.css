@@ -1,0 +1,64 @@
+table {
+    border-collapse: separate;
+    border-spacing: 15px; 
+    margin: 20px auto;
+}
+
+
+td {
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+
+#furia {
+    background-color: darkred;
+    border: 10px dashed rgba(73, 15, 15, 0.342);
+}
+
+#enojo {
+    background-color: red;
+     border: 20px dashed rgba(121, 4, 4, 0.623);
+}
+
+#tristeza {
+    background-color: steelblue;
+     border: 13px dashed rgb(50, 25, 163);
+}
+
+#amor {
+    background-color: rgba(190, 41, 103, 0.699);
+    border: 10px dashed rgba(224, 48, 121, 0.342);
+}
+
+#felicidad {
+    background-color: rgb(228, 209, 101);
+    color: black;
+     border: 8px dashed rgb(252, 227, 2);
+}
+
+#desagrado {
+    background-color: olive;
+    border: 15px dashed rgba(73, 15, 15, 0.342);
+}
+
+#estres {
+    background-color: orange;
+    border-radius: 40px;
+    
+}
+
+#ira {
+    background-color: firebrick;
+     border: 8px dashed rgb(124, 21, 21);
+}
+
+#ansiedad {
+    background-color: rgb(207, 87, 31);
+    border-radius: 30px;
+}

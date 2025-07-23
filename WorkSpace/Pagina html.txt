@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página con Dos Imágenes</title>
+</head>
+<body>
+    <h1>Mis Imágenes Favoritas</h1>
+
+    <p>Aquí hay dos imágenes que me gustan:</p>
+
+    <img src="https://placedog.net/400/300?id=10" alt="Perrito feliz" width="300">
+    <img src="https://placekitten.com/400/300" alt="Gatito tierno" width="300">
+
+    <p>¡Los animales siempre alegran el día!</p>
+</body>
+</html>

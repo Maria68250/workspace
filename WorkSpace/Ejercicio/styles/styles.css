@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+#tamaño-margin {
+    background-color: rgba(211, 255, 12, 0.897);
+    margin: 5rem;
+    padding: 2rem;
+    color: rgb(0, 0, 0);   
+    text-align: center;
+}
+
+#tamaño-padding {
+    background-color: rgb(244, 127, 255);
+    padding: 5rem;
+    margin: 5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#tamaño-border {
+    background-color: rgb(0, 247, 255);
+    margin: 5rem;
+    color: black;
+    border: 2px solid #000000;
+}
+
+#tamaño-border {
+    background-color: rgb(186, 72, 252);
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    text-align: center;
+}

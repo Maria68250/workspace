@@ -1,0 +1,56 @@
+.contenedor {
+    display: grid;
+    /*las columnas que tiene nuestro*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*las filas del grid*/
+    grid-template-rows: 40px 200px 40px;
+}
+
+.item1 {
+    /*Aca va de la columna 1 a la 4*/
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: aquamarine;
+}
+.item2 {
+    /*Aca va de la 2 a las 4 fila*/
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: blueviolet;
+}
+.item3 {
+    /*Aca va de la 2 a las 4 fila*/
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(43, 168, 226);
+}
+.item4 {
+    /*Aca va de la 2 a las 4 fila*/
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(226, 131, 43);
+}
+.item5 {
+    /*Aca va de la 2 a las 4 fila*/
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(226, 43, 43);
+}
+.item6 {
+    /*Aca va de la 2 a las 4 fila*/
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(226, 183, 43);
+}
+.item7 {
+    /*Aca va de la 2 a las 4 fila*/
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(43, 205, 226);
+}
+.item8 {
+    /*Aca va de la 2 a las 4 fila*/
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(6, 3, 8);
+}

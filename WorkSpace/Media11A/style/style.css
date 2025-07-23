@@ -1,0 +1,88 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header */
+    #header {
+      background-color: #F08080;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #header h1 {
+      color: white;
+      font-size: 28px;
+    }
+
+    #header img {
+      height: 90px;
+    }
+
+    /* Main */
+    #main {
+      padding: 50px 50px;
+      color: white;
+      background-image: url('https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/CFAPJBUIJ5DOPLZ5YQTYSLXXVY.jpg');
+      background-size: cover;
+      background-position: center;
+      min-height: 700px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    #main h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    #main p {
+      font-size: 20px;
+    }
+
+    /* Footer */
+    #footer {
+      background-color: #fce4ec;
+      padding: 200px;
+      text-align: center;
+    }
+
+
+    #footer a:hover {
+      text-decoration: underline;
+    }
+    table {
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+  color: #ffffff;
+  margin: 10 auto;
+}
+
+td {
+  padding: 20px;
+
+  border: 3px solid #ffffff;
+}
+
+.titulo-tabla {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+    background-color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+   background: linear-gradient(to right, rgb(247, 127, 217), rgb(251, 128, 255));
+    color: #ffff;
+    text-transform: uppercase;
+    transition: all .1s ease;
+}
