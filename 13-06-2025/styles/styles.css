@@ -1,0 +1,39 @@
+body {
+    font-style: italic;    
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.mes {
+    display: inline-block;
+    width: 30%;
+    height: 25%;
+    margin: 1%;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 20px 10px 8px rgba(0,0,0,0.1);
+}
+
+.clase1 {
+    background-color: #c2e7ff;
+    border: 2px dashed #177fc4;
+    color: #004466;
+}
+
+.clase2 {
+    background-color: #ffd1dc;
+    border: 2px dashed #f86dec;
+    color: #dd64b5;
+}
+
+.mes h2 {
+    margin-top: 10;
+}
